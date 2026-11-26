@@ -17,8 +17,9 @@ nav .logo
     text-decoration:none;
     font-size:24px;
     color:white;
-    margin-left:200px;
+    margin-left:150px;
     font-weight: 800;
+    border:1px solid white;
 }
 nav .links
 {
@@ -34,4 +35,59 @@ ul
     margin-right:200px;
     justify-content: flex-end;
     gap:20px;
+}
+
+main
+{
+    display:flex;
+    flex-direction:column;
+}
+.first
+{
+    display:flex;
+    padding-top:50px;
+    height:300px;
+    justify-content: space-between;
+    gap:20px;
+    border:1px solid black;
+    background-color:#1F2937;
+    padding-bottom:20px;
+}
+.sub1stA
+{
+    display:flex;
+    flex-direction:column;
+    margin-left:150px;
+    justify-content: space-evenly;
+    height:100%;
+    
+}
+.sub1stB
+{
+    display:flex;
+    flex-direction:column;
+    margin-right:200px;
+}
+h1
+{
+    font-size:48px;
+    color:#F9FAF8;
+    font-weight:900;
+    margin-top:0;
+    padding-top:0;
+}
+.sub1stA p
+{
+    font-size:18px;
+    color:#E5E7EB;
+}
+button
+{
+    background-color:#3882F6;
+    width:200px;
+    height:50px;
+    border:none;
+    border-radius:20px;
+    color:white;
+    font-size:18px;
 }
