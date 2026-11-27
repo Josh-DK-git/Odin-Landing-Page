@@ -167,3 +167,39 @@ button
     width:90%;
     font-size:25px;
 }
+
+.fourth
+{
+    height:300px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.sub4th
+{
+    background-color:#3882F6;
+    width:60%;
+    height:60%;
+    border-radius:15px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    color:white;
+}
+.sub4th h2
+{
+    font-size:36px;
+    color:white;
+    font-weight:900;
+    margin-left:40px;
+}
+.sub4th button
+{
+    border:4px solid white;
+    margin-right:40px;
+}
+.sub4th p
+{
+    font-size:20px;
+    margin-left:40px;
+}
