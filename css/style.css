@@ -1,9 +1,29 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/robot/Roboto-Regular.woff2') format('woff2'),
+        url('../font/robot/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/robot/Roboto-Italic.woff2') format('woff2'),
+        url('../font/robot/Roboto-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
 body
 {
     margin:0;
     display:flex;
     flex-direction:column;
+    font-family:"Roboto", sans-serif;
 }
+
 nav
 {
     background-color:#1F2937;
